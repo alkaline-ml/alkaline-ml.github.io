@@ -1,8 +1,13 @@
-# GitHub Actions - Lessons Learned
+---
+layout: post
+title: GitHub Actions - Lessons Learned
+tags: [github, cicd, gh-actions, azure-pipelines, circle-ci]
+author: Aaron Smith
+---
 
 GitHub recently got into the already-crowded CI/CD space with GitHub Actions. For enterprises, you may not want to shake up what already works, but for Open Source Projects, GHA provides a surprising amount of features and an even more enticing price tag: free.
 
-We recently migrated a portion of our builds for pmdarima to GitHub Actions. We're happy with the overall results, but, as early adopters, found some common mistakes that we hope to address here.
+We recently migrated a portion of our builds for [pmdarima](https://github.com/alkaline-ml/pmdarima) to GitHub Actions. We're happy with the overall results, but, as early adopters, found some common mistakes that we hope to address here.
 
 ## GitHub Actions treats tags as pushes
 
